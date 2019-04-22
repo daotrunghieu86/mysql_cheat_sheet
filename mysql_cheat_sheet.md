@@ -19,17 +19,41 @@ On Windows, use the GUI and go to System->Environment Variables
 mysql -u root -p
 ```
 
+## Show Users
+
+```sql
+SELECT User, Host FROM mysql.user;
+```
+
 ## Create User
 
 ```sql
-CREATE USER 'brad'@'localhost' IDENTIFIED BY '123456';
+CREATE USER 'someuser'@'localhost' IDENTIFIED BY 'somepassword';
 ```
 
 ## Grant priveleges
 
 ```sql
-GRANT ALL PRIVILEGES ON * . * TO 'brad'@'localhost';
+GRANT ALL PRIVILEGES ON * . * TO 'someuser'@'localhost';
 FLUSH PRIVILEGES;
+```
+
+## Show Grants
+
+```sql
+SHOW GRANTS FOR 'someuser'@'localhost';
+```
+
+## Remove Grants
+
+```sql
+REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'someuser'@'localhost';
+```
+
+## Delete User
+
+```sql
+DROP USER 'someuser'@'localhost';
 ```
 
 ## Exit
