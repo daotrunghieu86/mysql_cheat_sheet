@@ -5,7 +5,10 @@
 ## Add mysql to your PATH
 
 ```bash
+# Current Session
 export PATH=${PATH}:/usr/local/mysql/bin
+# Permanantly
+echo 'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.bash_profile
 ```
 
 On Windows, use the GUI and go to System->Environment Variables
