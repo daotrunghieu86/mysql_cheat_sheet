@@ -104,7 +104,7 @@ id INT AUTO_INCREMENT,
    dept VARCHAR(100),
    isAdmin TINYINT(1),
    register_date DATETIME,
-   PRIMARY_KEY(id)
+   PRIMARY KEY(id)
 );
 ```
 
