@@ -142,7 +142,8 @@ SELECT first_name, last_name FROM users;
 ## Where Clause
 
 ```sql
-SELECT * FROM users WHERE location = 'massachusetts';
+SELECT * FROM users WHERE location='Massachusetts';
+SELECT * FROM users WHERE location='Massachusetts' AND dept='sales';
 SELECT * FROM users WHERE is_admin = 1;
 SELECT * FROM users WHERE is_admin > 0;
 ```
