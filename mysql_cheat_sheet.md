@@ -50,6 +50,12 @@ SHOW DATABASES
 CREATE DATABASE acme;
 ```
 
+## Delete Database
+
+```sql
+DROP DATABASE acme;
+```
+
 ## Select Database
 
 ```sql
