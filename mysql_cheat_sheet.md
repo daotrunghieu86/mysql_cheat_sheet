@@ -2,6 +2,11 @@
 
 > Help with SQL commands to interact with a MySQL database
 
+## MySQL Locations
+* Mac/Linux  /usr/local/mysql/bin
+* Windows    /Program Files/MySQL/MySQL _version_/bin
+* Xampp      /xampp/mysql/bin
+
 ## Add mysql to your PATH
 
 ```bash
