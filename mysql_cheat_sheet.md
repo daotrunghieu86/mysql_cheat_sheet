@@ -22,6 +22,8 @@ On Windows - https://www.qualitestgroup.com/resources/knowledge-center/how-to-gu
 
 ```bash
 mysql -u root -p
+or
+mysql -u root
 ```
 
 ## Show Users
